@@ -2,7 +2,7 @@ import Resume from "@/components/Resume";
 
 export default function Layout() {
   return (
-    <main className="">
+    <main className="min-h-screen">
       <Resume />      
     </main>
   )  

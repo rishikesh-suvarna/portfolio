@@ -11,9 +11,26 @@
   content: '';
   position: absolute;
   top: 50%;
-  right: -3px;
-  width: 1px;
-  height: 90%;
+  right: -0.2rem;
+  width: .08rem;
+  height: 50%;
   transform: translateY(-50%);
+  background-color: black;
+}
+
+.resume ul.resume-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin: .5rem 0;
+}
+
+.resume ul.resume-list li:before {
+  content: '';
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  width: .4rem;
+  height: .4rem;
+  border-radius: 100%;
   background-color: black;
 }
